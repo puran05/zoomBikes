@@ -19,6 +19,13 @@ body{
     height:30vh;
     
 }
+.bikeHeadingLogo{
+    font-size:7.3vw;
+    line-height:0.9em;
+    font-weight:900;
+    text-transform:uppercase;
+    font-family:Switzer
+}
 .motto{
     text-transform: uppercase;
     height: 20vh;
