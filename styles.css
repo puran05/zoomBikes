@@ -49,9 +49,11 @@ body{
     min-height: 40vh;
     border: 1px solid black;
 } */
+
+/*use these properties to align the background image perfectly*/
 .imageCompany{
-     
     background: url(rectangle.png) ;
+    background-position:center center;
     background-size: cover;  /*this is what made the image take the whole area and also made responsive to some extend*/
     background-repeat: no-repeat;
     min-height: 45vh;
@@ -114,4 +116,23 @@ body{
 .last-image{
     display: flex;
     justify-content: end;
+}
+.bikeModel{
+    font-weight: 500;
+    font-size: 1.123rem;
+    text-align: center;
+}
+.bikePrice{
+    font-weight: 400;
+    font-size:1rem;
+    text-align: center;
+
+}
+.carousel1{
+    height:25vh;
+}
+
+.kidsBikeButton{
+    padding-bottom:1rem;
+    text-align: center;
 }
