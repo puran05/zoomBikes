@@ -45,14 +45,17 @@ body{
     width: 20%;
     background-color: red;
 }
-.imageCompany1{
+/* .imageCompany1{
     min-height: 40vh;
     border: 1px solid black;
-}
+} */
 .imageCompany{
      
-    background: url(firstImage.jpg) ;
-    background-size: 600px 500px ;
+    background: url(rectangle.png) ;
+    background-size: cover;  /*this is what made the image take the whole area and also made responsive to some extend*/
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    width: 100%;
 }
 /* .imageCompany{
     background: url(firstImage.jpg);
